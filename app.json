@@ -14,5 +14,6 @@
         }
     },
     "buildpacks": [{"url": "heroku/python"}]
+     "stack": "container"
 }
-  "stack": "container"
+
