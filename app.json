@@ -13,6 +13,16 @@
             "description": "𝗚𝗲𝘁 𝘁𝗵𝗶𝘀 𝘃𝗮𝗹𝘂𝗲 𝗳𝗿𝗼𝗺 𝗺𝘆.𝘁𝗲𝗹𝗲𝗴𝗿𝗮𝗺.𝗼𝗿𝗴! 𝗣𝗹𝗲𝗮𝘀𝗲 𝗱𝗼 𝗻𝗼𝘁 𝘀𝘁𝗲𝗮𝗹."
         }
     },
-    "buildpacks": [{"url": "heroku/python"}]
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
 }
-    "stack": "container"
